@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #654ea3; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #654ea3 , #eaafc8);
+  align-items: center;
+  display: block;
+  text-align: center;
+}
+
+#homePage {
+  background-color: #654ea3; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #654ea3 , #eaafc8);
+  align-items: center;
+  display: block;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  font-family: 'Felix Titling';
+}
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+  background-color: rgb(55, 22, 77);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+}
+h3 {
+  color: rgb(13, 13, 13);
+  font-size: 400%;
+  text-align: center;
+  font-family: 'Brush Script MT';
+}
+p {
+  color: rgb(0, 0, 0);
+  font-size: 150%;
+  opacity: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+  color: rgba(255, 255, 255, 0.708);
+  font-size: 160%;
+  border-radius: 25px;
+  background-color: rgb(55, 22, 77);
+  padding: 50px;
+  margin: auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 50%;
+  opacity:0.9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button {
+  background-color: #4b0863be;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 150%;
+  font-family: Georgia ;
+  opacity: 750%;
+}
+
+.method {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 1%;
+}
+
+#username {
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bookTitledisplay {
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+#reviewContent{
+  font-size: 15px;
+  text-align: left;
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  word-wrap: break-word;
+}
+
+.columnlft {
+  width: 40%;
+  padding: 7px;
+  display: inline-block;
+  
+}
+.columnrt {
+  padding: 5px;
+  display: inline-block;
+  width: 40%;
+  
+}
+.row {
+  margin-bottom: 70px;
+}
+.row1 {
+  background-color: whitesmoke;
+  margin-left: 200px;
+  margin-right:200px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  opacity:0.9;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 1px solid black;
+}
+hr {
+  border: 1px solid rgb(0, 0, 0);
+  width: 80%;
+}
+
+.footer {
+  padding: 10px;
+  margin: 20px;
+  width: 20%;
+  float: right;
+}
+
+.header {
+  padding: 10px;
+  background-color: rgb(255, 255, 255, 0.6);
+  text-align: center;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #ec3939;
+  font-size: 100%;
+  float: left;
+  border-radius: 8px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submitbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #59da80;
+  color: white;
+  font-size: 100%;
+  float: right;
+  border-radius: 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 4px;
+}
+button:hover {
+  opacity: 0.8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.submitbtn:hover {
+  opacity: 0.8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor:pointer;
+}
+
+#loginForm {
+  color: rgba(255, 255, 255, 0.708);
+  font-size: 160%;
+  border-radius: 25px;
+  background-color: rgb(55, 22, 77);
+  padding: 50px;
+  margin: auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 50%;
+  opacity:0.9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 90px;
+}
+
+#reviewForm{
+  color: rgba(255, 255, 255, 0.708);
+  font-size: 160%;
+  border-radius: 25px;
+  background-color: rgb(55, 22, 77);
+  padding: 50px;
+  margin: auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 50%;
+  opacity:0.9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 75px;
+}
+
+.logoutbtn{
+  width: auto;
+  padding: 10px 18px;
+  background-color: #ec3939;
+  color: white;
+  font-size: 100%;
+  float: right;
+  border-radius: 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 4px;
+}
+
+.logoutbtn:hover {
+  opacity: 0.8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor:pointer;
+}
